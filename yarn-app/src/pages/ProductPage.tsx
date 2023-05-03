@@ -21,7 +21,7 @@ const ProductPage = () => {
             <div className="main-content">
                 <div className='product_info_wrapper d-flex'>
                     <div className="gallery">
-                       {/* <ProductGallery /> */}
+                       <ProductGallery />
                     </div>
                     <div className="product_info">
                         <h1 className='section_title'>Samsung Galaxy S21 FE 5G (8GB/128GB)</h1>

@@ -1,0 +1,156 @@
+
+@media screen and (max-width: 1025px) {
+    .container {
+        max-width: 100%;
+        width:100%;
+        padding: 0 1.5rem;
+        box-sizing: border-box;
+    }
+    .header-main {
+        flex-direction: column;
+    }
+    .section_one {
+        flex-direction: column-reverse;
+
+    }
+    
+    .section_one_img,.section_one_content {
+        width: 100%;
+    }
+    .homeproduct {
+        padding: 0 10px;
+    }
+
+    .homeproduct li {
+        width: calc((100% - 40px) / 2);
+    }
+    .subscribe_form {
+        flex-wrap: wrap;
+        row-gap: 10px;
+        margin: 30px 20px 0;
+    }
+    .subscribe_form>*{
+        width: calc((100% - 30px) / 2);
+    }
+    .productlist{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .productlistitem {
+        width: 30%;
+    }
+    .f-flex{
+        flex-wrap: wrap;
+    }
+
+    .f-flex .footer-col {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 769px) {
+    .container {
+        max-width: 100%;
+        width:100%;
+        padding: 0 1.5rem;
+        box-sizing: border-box;
+    }
+    .header-main {
+        flex-direction: column;
+    }
+    .section_one {
+        flex-direction: column-reverse;
+        display: inline-block;
+    }
+    
+    .section_one_img, .section_one_content {
+        width: 100%;
+        overflow: hidden;
+    }
+   .homeproduct {
+        padding: 0 10px;
+    }
+
+    .homeproduct li {
+        width: calc((100% - 40px) / 2);
+    }
+    .subscribe_form {
+        flex-wrap: wrap;
+        row-gap: 10px;
+        margin: 30px 20px 0;
+    }
+    .subscribe_form>*{
+        width: calc((100% - 30px) / 2);
+    }
+    .productlist{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .productlistitem {
+        width: 45.7%;
+    }
+    .f-flex {
+        flex-flow: row wrap;
+        row-gap: 10px;
+    }
+    .f-flex .footer-col {
+        width: 50%;
+
+    }
+}
+@media screen and (max-width:480px) {
+    .sections {
+      padding: 30px 0;
+    }
+   .section_desc, .section_title, .section_subtitle_two, .section_subtitle  {
+    padding: 0 20px
+   }
+   .header-main {
+        flex-direction: row;
+            align-items: center;
+    }
+    #toggle_nav {
+        display: inline-flex;
+    }
+    #toggle_nav i{
+        color: #fff;
+        font-size: 22px;
+    }
+   .header-nav>ul {
+    display: none;
+   }
+   .main-nav li{
+        display: none;
+   }
+   .carttwo {
+        display: flex;
+        color: #fff;
+    }
+   .homeproduct li {
+        width: 100%;
+    }
+    .homeproduct li .section_desc{
+        padding: 0;
+    }
+    .subscribe_form>* {
+        width: 100%;
+    }
+    .productlist{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .productlistitem {
+        width: 100%;
+    }
+    .f-flex {
+        display: inline-block;
+    }
+    .f-flex .footer-col {
+        width: 100%;
+    }
+    .section_one_content {
+        padding: 40px 0 0 0;
+    }
+    .section_about_hotline {
+        padding: 0 20px;
+    }
+}

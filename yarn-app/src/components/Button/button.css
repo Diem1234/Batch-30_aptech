@@ -1,7 +1,7 @@
 .button {
     background-color: aquamarine;
     color: white;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     border-radius: 5px;
 }
@@ -9,5 +9,4 @@
 .button-dark{
     background-color: black;
     border: none;
-    text-align: center;
 }
